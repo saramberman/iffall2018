@@ -1,0 +1,17 @@
+body {
+	margin:5em;
+	font-family: helvetica
+}
+
+
+h1 {
+	color:black;
+	font-size:4em;
+	font-family:Georgia;
+}
+.drp {color: blue;}
+.dana {color: green;}
+.mayor {color: red;}
+.drs {color: purple;}
+.dre {color: orange;}
+.winston {color:pink;}
