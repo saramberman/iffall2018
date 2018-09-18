@@ -1,0 +1,22 @@
+html{font-family: 'Raleway', sans-serif;
+font-size: 24pt}
+.thin {font-weight:100;}
+.heading {color:#838383;}
+.headings {font-size:12pt;}
+.extral {font-weight:200;}
+.light {font-weight: 300}
+.regular {font-weight: 400}
+.medium {font-weight: 500}
+.sbold {font-weight: 600}
+.bold {font-weight: 700}
+.ebold {font-weight: 800}
+.black {font-weight: 900}
+.italic {font-weight:400; font-style:italic; }
+.spaced {letter-spacing: .3em}
+.tight {letter-spacing: -.06em}
+.underline {text-decoration: underline;}
+.lthrough {text-decoration: line-through;}
+.overline {text-decoration: overline;}
+.uppercase {text-transform: uppercase;}
+.lowercase {text-transform: lowercase;}
+.capitalize {text-transform: capitalize;}
