@@ -1,0 +1,9 @@
+html {font-family: 'Poiret One', cursive; text-align: center; background-color: #3F8EB6}
+
+.heading { font-weight: bold;font-size: 2rem; text-decoration: underline;color: #1C5069;}
+.heading2 {font-weight: bold;font-size: 6rem;font-family: 'Monoton', cursive;color: #1C5069; word-spacing: 1.7rem;}
+.heading3 {font-weight: bold;font-size: 2rem;color: #B8DDEF;  }
+.verse {color: #B8DDEF; line-height: 3rem}
+a {text-decoration: none; color: #1C5069}
+
+
