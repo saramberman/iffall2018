@@ -1,0 +1,37 @@
+aside.first {
+	position: relative;
+	float:right;
+}
+
+aside.second {
+	position: relative;
+	float: right;
+	top: 100px
+}
+
+aside.third {
+	position: fixed;
+	top: 0px;
+	left: 650px;
+	background-color: green
+}
+
+section.section{position: relative;}
+
+aside.fourth{
+	background-color: red;
+	position: absolute;
+	align-items: center;
+	z-index: 1000;
+	left: calc(50% - 9rem);
+	top: calc(50% - 9rem);
+
+	
+}
+aside.fifth{
+	background-color: black;
+	position: absolute;
+	align-items: center;
+	left: calc(50% - 9rem + 10px);
+	top: calc(50% - 9rem + 10px);
+}
