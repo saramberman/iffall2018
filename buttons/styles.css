@@ -1,0 +1,646 @@
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#main_content {
+	margin: 40px;
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.button_container {
+	border: 1px solid #ddd;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+a#btn_spotify {
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 40px 0 40px;
+	background-color: #2ebd59;
+	border: 2px solid #2ebd59;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_spotify:hover {
+	background-color: #fff;
+	border: 2px solid #000;
+	color: #000;
+}
+
+a#btn_twitter {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 105px;
+	padding: 10px 30px 0 30px;
+	background-color: #56cdf1;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_twitter:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+	background: #2ebfec; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+}
+
+a#btn_amazon {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	background-color: #232f3e;
+	color: #fff;
+	text-align: center;
+	font-size: 60px;
+}
+
+a#btn_amazon:hover {
+	background-color: #fc9a18;
+}
+
+a#btn_indiegogo {
+	display: inline-block;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: #fff;
+	color: #eb1478;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: -2px;
+}
+
+a#btn_indiegogo:hover {
+	color: #fff;
+	background-color: #eb1478;
+}
+
+a#btn_coca-cola {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	background-color: #FC0C0C;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	font-size: 25px;
+	padding-top: 32px;
+	font-family: 'Lobster', cursive;
+}
+
+a#btn_coca-cola:hover {
+	background-color: #fff;
+	border: 2px solid #FC0C0C;
+	color: #FC0C0C;
+}
+
+a#btn_apple {
+	display: inline-block;
+	height: 80px;
+	box-sizing: border-box;
+	border-radius: 6px;
+	margin: auto;
+	margin-top: 90px;
+	padding: 10px 30px 0 30px;
+	background-color:#DDDDDD ;
+	color: #fff;
+	/*text-shadow: 0px 9px 2px rgba(150, 150, 150, 1);*/
+	font-size: 60px;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+}
+
+a#btn_apple:hover {
+	background-color: #fff;
+	color:#DDDDDD;
+}
+
+a#btn_ibm{
+	font-family: 'Arvo', serif;
+	display: block;
+	width: 150px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 12px;
+	/*background-color: #232f3e;*/
+	color: #000000;
+	text-align: center;
+	font-size: 60px;
+	text-decoration: none;
+}
+
+a#btn_ibm:hover{
+	box-sizing: border-box;
+	border-radius: 3px;
+	background-color: #000000;
+	color: #fff;
+}
+
+a#btn_hasbro{
+	display: inline-block;
+	margin:auto;
+
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: #fff;
+	color: #26AEE9;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	text-decoration: none;
+	/*letter-spacing: 1px;*/
+	font-weight: 900;
+	border-radius: 6px;
+	border: 2px solid #26AEE9
+}
+
+a#btn_hasbro:hover{
+	background-color: #26AEE9;
+	color: #fff;
+	text-shadow: 0px 6px 2px rgba(62, 108, 150, 1);
+}
+
+a#btn_harley-davidson{
+	font-family: 'Anton', sans-serif;
+	box-sizing: border-box;
+	margin-top: 100px;
+	/*width: 200px;*/
+	/*padding-left: -5px;*/
+	display: block;
+	/*border-radius: 4px;*/
+	text-decoration: none;
+	background-color: #000000;
+	border: 3px solid #F5591A;
+	color: #fff;
+	font-size: 30px;
+	text-align: center
+}
+
+a#btn_harley-davidson:hover{
+	background-color: #F5591A;
+	border: 3px solid #000000;
+
+}
+
+a#btn_michael-kors{
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+	height: 100px;
+	margin-top: 80px;
+	display: block;
+	text-decoration: none;
+	color: #000000;
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	padding-top: 30px
+}
+
+a#btn_michael-kors:hover{
+	background-color: #DEB87E;
+	color:#fff;	
+}
+
+a#btn_ideo{
+	font-family: 'Inconsolata', monospace;
+	box-sizing: border-box;
+	display: block;
+	text-decoration: none;
+	color: #000000;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 100px;
+}
+
+a#btn_ideo:hover {
+	color: #FF8104;
+	text-shadow: 0px 6px 2px rgba(62, 170, 170, 1);
+}
+
+a#btn_sardella {
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	display: block;
+	font-size: 50px;
+	text-align: center;
+	background-color: #04FFEC;
+	color: #1613B6;
+	box-sizing: border-box;
+	border-radius: 10px;
+	border-width: 250px;
+	margin-top: 90px;
+}
+
+a#btn_sardella:hover {
+	color:#04FFEC;
+	text-shadow: 4px 4px 2px rgba(0, 0, 253, 1);
+	background-color:#fff
+}
+
+a#btn_craigslist{
+	font-family: georgia, serif;
+	font-size: 40px;
+	text-align: center; 
+	display: block;
+	box-sizing: border-box;
+	text-decoration: none;
+	color:#1613B6;
+	margin-top:  100px
+}
+
+a#btn_craigslist:hover{
+	color: #611175;
+	text-decoration:underline;
+}
+
+a#btn_lyft {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 60px;
+	text-decoration: none;
+	text-align: center; 
+	display: block;
+	box-sizing: border-box;
+	letter-spacing: -5px;
+	background-color: #FF009B;
+	color: #fff;
+	border-radius: 40px;
+	margin-top: 90px;
+	width: 200px;
+	margin-left: 30px;
+}
+
+a#btn_lyft:hover {
+	border: 3px solid #FF009B;
+	background-color: #fff;
+	color: #FF009B;
+}
+
+a#btn_samsung{
+	font-family: 'Teko', sans-serif;
+	text-decoration: none;
+	text-align: center; 
+	display: block;
+	box-sizing: border-box;
+	padding-top: 5px;
+	font-size: 60px;
+	color: #1613B6;
+	margin-top: 80px;
+
+}
+a#btn_samsung:hover{
+	border-radius: 40px;
+	background-color: #1613B6;
+	color: #fff
+}
+
+a#btn_dimecitycycles {
+	text-align: center; 
+	display: inline-block;
+	box-sizing: border-box;
+	border-radius: 100px;
+	height: 200px;
+	width: 200px;
+	text-decoration: none;
+	background-color: #AF0000;
+	font-size: 35px;
+	padding-top: 45px;
+	font-family: 'Catamaran', sans-serif;
+	color:#fff;
+	border: 5px solid #000000;
+
+}
+
+a#btn_dimecitycycles:hover {
+	text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+}
+
+a#btn_cartoonnetwork{
+	text-align: center; 
+	display: block;
+	box-sizing: border-box;
+	height: 100px;
+	width: 100px;
+	padding-left: 17px;
+	margin-top: 90px;
+	background-color: #000000;
+	font-size: 90px;
+	text-decoration: none;
+	letter-spacing: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	color: #000000;
+	margin-left: 40px
+
+}
+acronym#c{
+	color: #fff
+
+}
+a#btn_cartoonnetwork:hover{
+	background-color: #FFFB00;
+
+}
+
+acronym#c:hover{
+	color: #fff
+}
+
+a#btn_bissingers{
+	font-family: 'Fondamento', cursive;
+	font-size: 50px;
+	color: #7A3000;
+	text-decoration: none;
+	text-align: center; 
+	display: block;
+	box-sizing: border-box;
+	margin-top: 100px;
+
+}
+
+a#btn_bissingers:hover{
+	color: #AE104E;
+	border: 2px solid #AE104E;
+}
+
+a#btn_facebook{
+	font-size: 80px;
+	text-align: center; 
+	display: inline-block;
+	box-sizing: border-box;
+	background-color: #0D5CA5;
+	color: #fff;
+	width: 90px;
+	margin-top: 70px;
+}
+
+a#btn_facebook:hover{
+	background-color: #fff;
+	color: #0D5CA5;
+}
+
+a#btn_instagram{
+	font-size: 100px;
+	text-align: center; 
+	display: inline-block;
+	box-sizing: border-box;
+	margin-top: 60px;
+	width: 130px;
+	height: 140px;
+	border-radius: 30px;
+	color: #000000
+	
+
+}
+a#btn_instagram:hover{
+	  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c401ff+0,ff3d02+100 */
+	background: rgb(196,1,255); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(196,1,255,1) 0%, rgba(255,61,2,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(196,1,255,1) 0%,rgba(255,61,2,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(196,1,255,1) 0%,rgba(255,61,2,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c401ff', endColorstr='#ff3d02',GradientType=1 ); /* IE6-9 */
+	color: #fff
+
+}
+
+a#btn_moo{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
+	font-size: 80px;
+	text-decoration: none;
+	letter-spacing: -2px;
+	color: #11AB6E;
+	margin-top: 80px;
+	text-align: center; 
+	display: inline-block;
+	box-sizing: border-box;
+	border: 1px solid #11AB6E;
+	border-radius: 30px;
+	width: 200px
+}
+a#btn_moo:hover{
+	background-color:#11AB6E;
+	color:#fff;
+}
+
+a#btn_fitbit{ 
+	font-family: 'Nunito', sans-serif;
+	text-decoration: none;
+	margin-top: 100px;
+	text-align: center; 
+	display: inline-block;
+	box-sizing: border-box;
+	letter-spacing: .5px;
+	font-size: 50px;
+	color: #00CAD1;
+	border-radius: 40px;
+	width: 150px
+}
+
+a#btn_fitbit:hover{
+	background-color: #00CAD1;
+	color: #fff;
+
+}
+
+a#btn_oldnavy {
+	font-family: 'Arimo', sans-serif;
+	text-decoration: none;
+	margin-top: 100px;
+	text-align: center; 
+	display: inline-block;
+	box-sizing: border-box;
+	font-size: 30px;
+	width: 200px;
+	height: 80px;
+	background-color: #011F65;
+	border-radius: 120px;
+	padding-top: 20px;
+	color: #fff;
+	border: 4px solid #011F65;
+}
+
+a#btn_oldnavy:hover{
+	background-color: #fff;
+	color: #011F65;
+	border: 4px solid #011F65;
+
+}
+
+a#btn_ofa{
+	text-decoration: none;
+	margin-top: 35px;
+	text-align: center; 
+	display: inline-block;
+	box-sizing: border-box;
+	font-size: 80px;
+	font-family: 'Arimo', sans-serif;
+	font-weight: 700;
+	color: #18C7D8;
+	letter-spacing: -2px;
+	width: 200px;
+	height: 200px;
+	padding-top: 55px
+}
+
+a#btn_ofa:hover{
+	background-color: #18C7D8;
+	color: #fff
+}
+a#btn_nbc{
+	text-decoration: none;
+	margin-top: 85px;
+	text-align: center; 
+	display: inline-block;
+	box-sizing: border-box;
+	font-size: 80px;
+	font-family: 'Arimo', sans-serif;
+	font-weight: 700;
+	color: #000000;}
+
+a#btn_nbc:hover{
+	text-shadow: 8px 4px 6px rgba(225, 0, 21, 1);
+}
+
+a#btn_stjude{
+	font-family: 'Merriweather', serif;
+	text-align: center; 
+	display: inline-block;
+	box-sizing: border-box;
+	font-size: 20px;
+	text-decoration: none;
+	margin-top: 110px;
+	color: #A1A1A1
+
+}
+a#btn_stjude:hover{
+	color: #C70039
+}
+
+a#btn_army{
+	font-family: 'Oswald', sans-serif;
+	text-align: center; 
+	display: inline-block;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: #000000;
+	color:#fff;
+	font-size: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-decoration: none;
+	border: 4px solid #CF9700;
+	margin-top: 90px;
+}
+
+a#btn_army:hover{
+	background-color: #fff;
+	color:#CF9700;
+	border: 4px solid #000000;
+
+}
+a#btn_hsn{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: #2396CF;
+	border-radius: 50px;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	color: #fff;
+	font-size: 50px;
+	padding-top: 20px;
+	margin-top: 70px
+}
+a#btn_hsn:hover{
+	background-color: #fff;
+	color: #2396CF
+}
+
+a#btn_foreflight{
+	font-family: 'Muli', sans-serif;
+	color: black;
+	text-decoration: none;
+	font-size: 40px;
+	box-sizing: border-box;
+	text-align: center;
+	display: inline-block;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #000000;
+	color: #fff;
+	margin-top: 90px
+	/*font-weight: lighter;*/}
+
+a#btn_foreflight:hover{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#aebcbf+0,6e7774+23,6e7774+25,0a0e0a+56,0a0809+100 */
+	background: rgb(174,188,191); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(174,188,191,1) 0%, rgba(110,119,116,1) 23%, rgba(110,119,116,1) 25%, rgba(10,14,10,1) 56%, rgba(10,8,9,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(174,188,191,1) 0%,rgba(110,119,116,1) 23%,rgba(110,119,116,1) 25%,rgba(10,14,10,1) 56%,rgba(10,8,9,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(174,188,191,1) 0%,rgba(110,119,116,1) 23%,rgba(110,119,116,1) 25%,rgba(10,14,10,1) 56%,rgba(10,8,9,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0809',GradientType=1 ); /* IE6-9 */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=1 ); /* IE6-9 */
+	color: #fff;}
+
+	
+
+
+	
+	
+
+
