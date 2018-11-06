@@ -1,0 +1,157 @@
+
+html, body{
+	height: 100%;
+	font-size: 10px;
+	font-family: 'Anton', sans-serif;
+	padding: 0;
+}
+
+body {
+	margin:0;
+	padding: 0;
+	/*padding: 1em;*/
+	box-sizing:border-box;
+}
+
+body>div {
+	background-image: url(images/jim.jpg);
+	height: 100%;
+	position: relative;
+	background-size: cover;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	margin: 0
+}
+
+.whole{
+	font-family: 'Anton', sans-serif;
+	/*font-family: arial;*/
+	position: absolute;
+	/*margin-right: 2px;*/
+	/*padding-left: 240px;*/
+	/*padding-bottom: 70%;*/
+	margin-top: 100px;
+	color: #000000;
+	max-width: 85%;
+	background-image: none;
+	padding-right: 260px;
+	padding-left: 40px
+	
+}
+
+.quote {
+	font-size: 25px;
+	text-align: left;
+}
+.name {
+	/*margin-top: 1em;*/
+	text-align: left;
+	/*padding-right: 10px;*/
+	font-size: 10px;
+}
+
+
+
+@media (min-width: 0px) {
+	body>div {
+		background-image: url(images/jim.jpg);
+		background-position: top center;
+}	
+	.whole {
+		/*right: 5em;*/
+		/*bottom: 30%;*/
+		max-width: 80%;
+	}
+}
+@media (min-width: 440px){
+	.whole {
+		padding-right: 260px;
+		padding-left: 80px
+		}
+	}
+
+@media (min-width: 470px){
+	.whole {
+		padding-right: 300px;
+		padding-left: 100px
+		}
+	}
+@media (min-width: 530px){
+	.whole {
+		padding-right: 330px;
+		padding-left: 120px
+		}
+	}
+@media (min-width: 575px){
+	.whole {
+		padding-right: 330px;
+		padding-left: 130px
+		}
+	}
+@media (min-width: 600px){
+	.whole {
+		padding-right: 330px;
+		padding-left: 140px;
+		}
+	.quote {
+		font-size:35px;
+	}
+	.name {
+		font-size: 20px;
+	}
+	}
+@media (min-width: 650px){
+	.whole {
+		padding-right: 350px;
+		padding-left: 170px;
+		}
+	/*.quote {*/
+		font-size:35px;
+	}
+	}
+@media (min-width: 700px){
+	.whole {
+		padding-right: 500px;
+		padding-left: 190px
+		}
+	}
+@media (min-width: 715px){
+	.whole {
+		padding-right: 500px;
+		padding-left: 200px
+		}
+	}
+@media (min-width: 750px){
+	.whole {
+		padding-right: 500px;
+		padding-left: 220px
+		}
+	}
+@media (min-width: 800px){
+	.whole {
+		padding-right: 500px;
+		padding-left: 260px
+		}
+	}
+@media (min-width: 850px){
+	.whole {
+		padding-left: 100px;
+		padding-top: 400px;
+	}
+	.quote {
+		font-size: 40px
+	}
+	.name {
+		font-size: 20px;
+	}
+	}
+a {
+	display: block; /* turn the inline element into a box */
+	position: fixed; /* position the anchor fixed to the viewport */
+	top: 0; /* have the top edge of the anchor touch the the top of the viewport */
+	bottom: 0;  /* have the bottom edge of the anchor touch the the bottom of the viewport */
+	left: 0;  /* have the left edge of the anchor touch the the left of the viewport */
+	right: 0;  /* have the right edge of the anchor touch the the right of the viewport */
+	z-index: 100; /* make sure the anchor is the highest thing in the stack order of all elements */
+}
+

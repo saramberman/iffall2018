@@ -1,0 +1,88 @@
+html, body{
+	height: 100%;
+	font-size: 10px;
+	font-family: 'Anton', sans-serif;
+	padding: 0;
+}
+
+a {
+	display: block; /* turn the inline element into a box */
+	position: fixed; /* position the anchor fixed to the viewport */
+	top: 0; /* have the top edge of the anchor touch the the top of the viewport */
+	bottom: 0;  /* have the bottom edge of the anchor touch the the bottom of the viewport */
+	left: 0;  /* have the left edge of the anchor touch the the left of the viewport */
+	right: 0;  /* have the right edge of the anchor touch the the right of the viewport */
+	z-index: 100; /* make sure the anchor is the highest thing in the stack order of all elements */
+}
+
+body {
+	margin:0;
+	padding: 0;
+	/*padding: 1em;*/
+	box-sizing:border-box;
+}
+
+body>div {
+	background-image: url(images/stanley.jpg);
+	height: 100%;
+	position: relative;
+	background-size: cover;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	margin: 0
+}
+
+.whole{
+	font-family: 'Anton', sans-serif;
+	/*font-family: arial;*/
+	position: absolute;
+	/*margin-right: 2px;*/
+	padding-left:30px;
+	padding-right: 700px;
+	/*padding-bottom: 70%;*/
+	margin-top: 240px;
+	color: #000000;
+	/*max-width: 85%;*/
+	background-image: none;
+	
+}
+
+.quote {
+	font-size: 40px;
+	text-align: left;
+}
+.name {
+	/*margin-top: 1em;*/
+	text-align: left;
+	/*padding-right: 10px;*/
+	font-size: 10px;
+}
+
+@media (min-width: 600px){
+	.quote {
+		font-size:50px;
+	}
+	.name {
+		font-size: 20px;
+	}
+@media (min-width: 800px){
+	.quote {
+		font-size:60px;
+	}
+	.name {
+		font-size: 30px;
+	}
+@media (min-width: 1090px){
+	.whole {
+		margin-top: 180px;
+	}
+	.quote {
+		font-size:80px;
+	}
+	.name {
+		font-size: 50px;
+	}
+
+
+
+
