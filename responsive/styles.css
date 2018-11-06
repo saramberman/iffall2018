@@ -1,0 +1,106 @@
+
+html, body{
+	height: 100%;
+	font-size: 10px;
+	font-family: 'Anton', sans-serif;
+	padding: 0;
+}
+a {
+	display: block; /* turn the inline element into a box */
+	position: fixed; /* position the anchor fixed to the viewport */
+	top: 0; /* have the top edge of the anchor touch the the top of the viewport */
+	bottom: 0;  /* have the bottom edge of the anchor touch the the bottom of the viewport */
+	left: 0;  /* have the left edge of the anchor touch the the left of the viewport */
+	right: 0;  /* have the right edge of the anchor touch the the right of the viewport */
+	z-index: 100; /* make sure the anchor is the highest thing in the stack order of all elements */
+}
+
+
+body {
+	margin:0;
+	padding: 0;
+	/*padding: 1em;*/
+	box-sizing:border-box;
+}
+
+body>div {
+	background-image: url(images/michael.jpg);
+	height: 100%;
+	position: relative;
+	background-size: cover;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	margin: 0
+}
+
+.whole{
+	font-family: 'Anton', sans-serif;
+	/*font-family: arial;*/
+	position: absolute;
+	/*margin-right: 2px;*/
+	padding-left: 240px;
+	/*padding-bottom: 70%;*/
+	margin-top: 100px;
+	color: #000000;
+	max-width: 85%;
+	background-image: none;
+	
+}
+
+.quote {
+	font-size: 25px;
+	text-align: right;
+}
+.name {
+	/*margin-top: 1em;*/
+	text-align: right;
+	/*padding-right: 10px;*/
+	font-size: 10px;
+}
+
+
+
+@media (min-width: 0px) {
+	body>div {
+		background-image: url(images/michael.jpg);
+		background-position: top center;
+}	
+	.whole {
+		right: 5em;
+		/*bottom: 30%;*/
+		max-width: 80%;
+	}
+}
+@media (min-width: 530px){
+	.whole {
+		padding-left: 600px;
+		padding-right: 10px}
+	.quote {
+		text-align:right;
+				/*bottom: 30%;*/
+				/*max-width: 80%;*/
+				/*padding-top: 400px;*/
+				/*font-size: 22px*/
+			}
+		}
+
+@media (min-width: 600px) {
+	.quote {font-size: 30px
+}
+	.name {font-size: 15px}
+}
+@media (min-width: 915px) {
+			.name {font-size:30px;}
+			.whole {
+				padding-left:450px;
+			}
+			.quote {
+				font-size: 50px;
+				/*padding-left: 200px;*/
+				max-width: 100%;
+				padding-top: 280px;
+			}
+		}
+}
+
+
