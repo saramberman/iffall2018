@@ -1,0 +1,128 @@
+.introduction:hover {color:#751906; }
+.keyplayers:hover {color:#751906; }
+.history:hover {color:#751906; }
+.legacy:hover {color:#751906; }
+ul {list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+width: 100%;
+background-color: #7C6E64;
+text-align: center; 
+-webkit-box-shadow: -7px 3px 22px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    -7px 3px 22px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         -7px 3px 22px 0px rgba(50, 50, 50, 0.75);}
+
+li {
+	/*float: left */
+display: inline-block;
+}
+
+li a {display: block;
+color: #EFE1D6;
+text-align: center;
+/*background-color: #C33131;*/ 
+/*padding: 14px 50px;*/
+padding-bottom: 50px;
+text-decoration: none;
+font-family: 'Oswald', sans-serif; }
+
+html {margin: 0;
+background-color: #7C6E64;
+height: 100%}
+body {margin: 0;
+height: 100%}
+
+
+
+.main { font-family: 'Oswald', sans-serif;
+font-size: 60px;
+text-align: center;
+padding-top: 150px;
+color: #EFE1D6;
+/*width: 100%;
+margin: 0;*/
+padding-bottom: 275px}
+
+.home {padding-bottom: 30px}
+@media (max-width: 400px)
+{.main {font-size: 50px;
+	}}
+
+@media (min-width: 500px)
+{.main {font-size: 70px;}}
+
+@media (min-width: 750px)
+{.main {font-size: 100px}}
+
+@media (min-width: 810px)
+{.main {font-size: 180px}}
+
+@media (min-width: 900px)
+{.main {font-size: 200px}}
+
+@media (min-width: 1000px)
+{.main {font-size: 220px;
+	}}
+.sourcetext {font-family: 'Merriweather', serif;
+font-size: 10px;
+text-align: left;
+padding-top: 25px;
+padding-bottom: 25px;
+padding-left: 50px;
+color: #EFE1D6;}
+
+.sources {
+bottom: 0;
+background-color: #751906;
+/*position: absolute;*/
+width: 100%;
+background-size: cover;
+overflow: hidden;
+margin: 0;
+
+ }
+
+
+
+
+ul {list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+width: 100%;
+background-color: #7C6E64;
+text-align: center; }
+
+li {
+	/*float: left */
+display: inline-block;
+}
+
+li a {display: block;
+/*color: white;*/
+text-align: center;
+/*background-color: #C33131;*/ 
+padding: 14px 50px;
+padding-bottom: 50px;
+text-decoration: none;
+font-family: 'Oswald', sans-serif; }
+
+.wrapper {position: relative;
+width: 100%;
+min-height: 100%;
+padding-bottom: 150}
+
+	.mobilehome {display: none;}
+
+
+@media (max-width: 550px) { .desktophome {display: none;
+	}}
+@media (max-width: 550px) { .mobilehome {display: block; }
+li {display: block;}}
+
+.drawer {
+	position: fixed;
+	top: 0;
+}
+

@@ -1,0 +1,109 @@
+.sourcetext {font-family: 'Merriweather', serif;
+font-size: 10px;
+text-align: left;
+padding-top: 25px;
+padding-bottom: 25px;
+padding-left: 50px;
+color: #EFE1D6;}
+.introduction:hover {color:#751906; }
+.keyplayers:hover {color:#751906; }
+.history:hover {color:#751906; }
+.legacy:hover {color:#751906; }
+.row {
+display: flex;}
+.column1 {flex: 1;
+padding-left: 50px;
+padding-top: 150px}
+
+.column2 {flex: 6;}
+
+ul {list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+width: 100%;
+background-color: #EFE1D6;
+text-align: center;
+-webkit-box-shadow: -7px 3px 22px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    -7px 3px 22px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         -7px 3px 22px 0px rgba(50, 50, 50, 0.75); }
+
+li {
+	/*float: left */
+display: inline-block;
+}
+
+li a {display: block;
+color: #7C6E64;
+text-align: center;
+/*background-color: #C33131;*/ 
+padding: 14px 50px;
+padding-bottom: 50px;
+text-decoration: none;
+font-family: 'Oswald', sans-serif; }
+
+html {margin: 0;
+background-color: #7C6E64;
+height: 100%}
+body {margin: 0;
+height: 100%}
+
+html {background-color: #EFE1D6;
+	margin: 0
+}
+
+body{margin: 0}
+
+
+.text {font-family: 'Merriweather', serif;
+font-size: 20px;
+display: inline-block;
+width: 80%;
+text-align: left;
+/*padding-left: 10%;*/
+padding-bottom: 175px;
+position: relative;
+top: 8px;
+left: 16px;
+padding-top:170px;
+color: #7C6E64 }
+
+.sources { font-family: 'Merriweather', serif;
+bottom: 0;
+background-color: #751906;
+/*position: absolute;*/
+width: 100%;
+background-size: cover;
+overflow: hidden;
+margin: 0;
+
+ }
+
+ .wrapper {position: relative;
+width: 100%;
+min-height: 100%;
+padding-bottom: 150}
+
+/*@media (max-width: 400px)
+{.text {font-size: 18px;}}
+
+@media (min-width: 500px)
+{.text {font-size: 20px;}}
+
+@media (min-width: 750px)
+{ .text {font-size: 22px}}
+
+@media (min-width: 810px)
+{.text {font-size: 25px}}
+
+@media (min-width: 900px)
+{.text {font-size: 27px}}
+
+@media (min-width: 1000px)
+{.text {font-size: 30px;}}*/
+/*.container {position: relative;
+    text-align: center;
+    color: white;
+    width:100%;
+    margin-left: 2px;*/
+
