@@ -1,0 +1,229 @@
+.sources .row {display: flex;
+	font-family: 'Merriweather', serif;
+font-size: 10px;
+text-align: left;
+padding-top: 25px;
+padding-bottom: 25px;
+padding-left: 10px;
+color: #EFE1D6;
+}
+.sources .column1 {flex: 1;}
+.sources .column2 {flex: 1;}
+.sources .column3 {flex: 1;}
+
+.sources { font-family: 'Merriweather', serif;
+bottom: 0;
+/*padding-left: 50px;*/
+
+background-color: #751906;
+/*position: absolute;*/
+width: 100%;
+background-size: cover;
+overflow: hidden;
+margin: 0;
+
+ }
+
+
+.collage img {
+padding-bottom: 0px;
+position: absolute;
+text-align: left;
+top: 30%;
+z-index: 2;
+/*left: 10px;*/
+}
+
+@media (max-width: 850px){.collage img {display: none;}}
+@media (min-width: 850px){.collage2 img {display: none;}}
+
+
+.collage2 img {z-index: 2;
+padding-bottom: 100px;
+position: absolute;
+text-align: left;
+top: 30%;
+left: 10px;
+}
+.mobilehome {display: none;}
+
+
+@media (max-width: 850px) { .desktophome {display: none;} .mobilehome {display: block;
+	} .collage img {display: none;}}
+
+@media (min-width: 850px) { .mobilehome {display: block;}  }
+/*li {display: block;}*/
+	
+@media (max-width: 850px) {.wrapper ul {display: none;}}
+
+
+body {
+				margin: 0;
+				padding: 0;
+				font-family: Arial, sans-serif;
+			}
+
+			@media (max-width: 850px){#drawer {
+				position: fixed;
+				top: 0;
+				left: 10px;
+				width: 250px;
+				height: 30px;
+				z-index: 100;
+			}}
+
+	@media {#drawer button.controls {
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				height: 30px;
+				/*width: 100%;*/
+				/*background-color: #ccffcc;*/
+				cursor: pointer;
+
+			}}
+			@media (min-width: 850px) {#drawer button.controls {
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				height: 30px;
+				/*width: 100%;*/
+				/*background-color: #ccffcc;*/
+				cursor: pointer;
+				display: none;
+			}}
+
+			#drawer.open button.controls {
+				/*background-color: #ccccff;*/
+			}
+
+			#drawer button.controls:after {
+				content: "<i class="fa fa-bars" aria-hidden="true"></i>"
+				/*font-family: Arial, sans-serif;
+				font-size: 10px;
+*/			}
+
+			#drawer.open button.controls:after {
+				/*content: "close -";*/
+			}
+
+			#drawer .contents {
+				height: 0;
+				padding: 0 10px;
+				box-sizing: border-box;
+				width: 100%;
+				/*background-color: orange;*/
+				color: #fff;
+				transition: all .5s;
+				overflow: hidden;
+			}
+
+			#drawer.open .contents {
+				height: 600px;
+				padding: 30px 10px 10px 10px;
+			}
+
+
+
+.introduction:hover {color:#751906; }
+.keyplayers:hover {color:#751906; }
+.history:hover {color:#751906; }
+.legacy:hover {color:#751906; }
+.row {
+display: flex;}
+
+.column2 {flex: 6;}
+.column1 {flex: 1;}
+
+ul {list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+width: 100%;
+background-color: #EFE1D6;
+text-align: center;
+-webkit-box-shadow: -7px 3px 22px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    -7px 3px 22px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         -7px 3px 22px 0px rgba(50, 50, 50, 0.75); }
+
+li {
+	/*float: left */
+display: inline-block;
+}
+
+li a {display: block;
+color: #7C6E64;
+text-align: center;
+/*background-color: #C33131;*/ 
+padding: 14px 50px;
+padding-bottom: 30px;
+text-decoration: none;
+font-family: 'Oswald', sans-serif; }
+
+html {margin: 0;
+background-color: #7C6E64;
+height: 100%}
+body {margin: 0;
+height: 100%;
+margin-bottom: 20px;}
+
+html {background-color: #EFE1D6;
+	margin: 0
+}
+
+body{margin: 0}
+
+
+.text {font-family: 'Merriweather', serif;
+font-size: 18px;
+display: inline-block;
+width: 70%;
+text-align: left;
+/*padding-left: 10%;*/
+padding-bottom: 290px;
+position: relative;
+top: 8px;
+left: 150px;
+padding-top:50px;
+
+color: #7C6E64;
+z-index: 1; }
+
+
+ }
+
+ .wrapper {position: relative;
+width: 100%;
+min-height: 100%;
+/*padding-bottom: 150*/}
+
+/*@media (max-width: 400px)
+{.text {padding-left: 100px}}
+
+@media (min-width: 500px)
+{.text {font-size: 20px;}}
+
+@media (min-width: 750px)
+{ .text {font-size: 22px}}
+
+@media (min-width: 810px)
+{.text {font-size: 25px}}
+
+@media (min-width: 900px)
+{.text {font-size: 27px}}*/
+
+@media (max-width: 900px)
+{.text {padding-left: 75px;}}
+@media (max-width: 950px)
+{.text {padding-left: 40px;}}
+@media (max-width: 700px)
+{.collage2 img {display: none;}
+.column2 {width: 100%}
+.text {padding-left: 0;
+	left: 0}}
+/*.container {position: relative;
+    text-align: center;
+    color: white;
+    width:100%;
+    margin-left: 2px;*/
+

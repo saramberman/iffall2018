@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Microsite Build</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+
+			$( document ).ready(function() {			/* Check that the DOM (the document) is ready */
+			    
+				$(".controls").click(function(){		/* Listen for a "click" on somewith with the class of "controls" */
+					$("#drawer").toggleClass("open");	/* Toggle (add/remove) the class "open" on an element with the ID of "drawer" */
+					console.log("Toggled the class!");	/* Logged a note to the console so I could see that the function ran */
+				});
+
+			});
+
+		</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles3.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div id="drawer"> 
+		<button class="controls"> <i class="fa fa-bars" aria-hidden="true"></i>
+</button>
+			<div class="contents">
+				<ul>
+					<li class="mobilehome"> <a class="home" href="index.html"> <img src="images/bone.png"></a></li>
+					<li> <a class="introduction" href="index3.html"> INTRODUCTION</a> </li>
+					<li> <a class="keyplayers" href="index4.html">KEY PLAYERS</a> </li>
+				<!-- 	<li class="desktophome"> <a class="home" href="index.html"> <img src="images/bone.png"></a></li> -->
+					<li> <a class="history" href="index5.html"> HISTORY</a></li>
+					<li> <a class="legacy" href="index6.html"> LEGACY</a></li>
+				</ul>
+				<!-- <i class="fa fa-bars" aria-hidden="true"></i> -->
+			</div>
+		</div>
+	<div class="wrapper">
+	<ul>
+		<li class="mobilehome"> <a class="home" href="#images/bone.png"> <img src="images/bone.png"></a></li>
+		<li> <a class="introduction" href="index3.html"> INTRODUCTION</a> </li>
+		<li> <a class="keyplayers" href="index4.html">KEY PLAYERS</a> </li>
+		<li class="desktophome"> <a class="home" href="index.html"> <img src="images/bone.png"></a></li>
+		<li> <a class="history" href="index5.html"> HISTORY</a></li>
+		<li> <a class="legacy" href="index6.html"> LEGACY</a></li>
+	</ul>
+		
+	<section class="main">
+			BONE WARS 
+			<!-- <img src="images/collage.png"> -->
+	</section>
+	
+	<section class="sources">
+		<div class="row">
+			<div class="column1">
+			Designed by: Sara Berman <br>
+			Creative Direction: Natalia Oledzka <br>
+			</div>
+			<div class="column2">
+			Produced for Interaction Foundations <br>
+			Sam Fox School of Design & Visual Arts <br>
+			Washington University in St. Louis 
+			©2018 <br>
+			</div>
+			<div class="column3">
+			Copy source: https://en.wikipedia.org/wiki/Bone_Wars <br>
+			Image source: ttps://www.nlm.nih.gov/exhibition/historicalanatomies/cheselden_home.html
+	 		</div>
+		</div>
+</section>
+
+</div>
+</body>
+</html>
